@@ -1,0 +1,79 @@
+Предметный указатель (PO1_ENG)
+------------------------------------------------------------
+  1. ПРЕДМЕТНЫЙ (ТЕРМИНОЛОГИЧЕСКИЙ) УКАЗАТЕЛЬ
+  2. (отредактированная версия)
+  3. ============================================================
+  4. 1. ОТДЕЛЬНЫЕ ТЕРМИНЫ
+  5. artificial
+  6. intelligence
+  7. computer
+  8. computing
+  9. technology
+ 10. technologies
+ 11. application
+ 12. applications
+ 13. system
+ 14. systems
+ 15. machine
+ 16. learning
+ 17. deep
+ 18. neural
+ 19. network
+ 20. data
+ 21. database
+ 22. processing
+ 23. analysis
+ 24. classification
+ 25. cognitive
+ 26. automatic
+ 27. intelligent
+ 28. expert
+ 29. diagnosis
+ 30. medical
+ 31. research
+ 32. scientific
+ 33. innovation
+ 34. integration
+ 35. development
+ 36. accuracy
+ 37. features
+ 38. control
+ 39. internet
+ 40. smart
+ 41. chip
+ 42. vehicle
+ 43. driving
+ 44. reasoning
+ 45. Всего терминов: 40
+ 46. 2. ДВУХСЛОВНЫЕ СЛОВОСОЧЕТАНИЯ
+ 47. artificial intelligence
+ 48. machine learning
+ 49. deep learning
+ 50. neural network
+ 51. computer technology
+ 52. intelligent system
+ 53. expert system
+ 54. cognitive computing
+ 55. automatic driving
+ 56. driving technology
+ 57. medical diagnosis
+ 58. scientific research
+ 59. problem solving
+ 60. facial features
+ 61. smart chip
+ 62. internet of things
+ 63. Всего двухсловных словосочетаний: 16
+ 64. 3. ТРЕХСЛОВНЫЕ СЛОВОСОЧЕТАНИЯ
+ 65. artificial intelligence technology
+ 66. development of artificial intelligence
+ 67. automatic driving technology
+ 68. intelligent expert system
+ 69. computer based artificial intelligence
+ 70. optimization of facial features
+ 71. Всего трехсловных словосочетаний: 6
+ 72. 4. АББРЕВИАТУРЫ
+ 73. AI — Artificial Intelligence
+ 74. CPU — Central Processing Unit
+ 75. LISP — List Processing
+ 76. Всего аббревиатур: 3
+ 77. ОБЩЕЕ КОЛИЧЕСТВО ПОНЯТИЙ: 65
