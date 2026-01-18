@@ -1,0 +1,159 @@
+Journal / issue information
+Izvestiya SPbGETU “LETI” / LETI Transactions on Electrical Engineering & Computer Science. 2025. Vol. 18, No. 1. pp. 46–54.
+DOI: https://doi.org/10.32603/2071-8985-2025-18-1-46-54
+
+Review article
+Simulation and Analytical Model for Evaluating the Informativeness of Graphical User Interfaces
+A. V. Vostrykh
+Saint-Petersburg University of State Fire Service of EMERCOM of Russia, Saint Petersburg, Russia
+E-mail: a.vostrykh@list.ru
+
+Abstract (English)
+Software requirements are becoming increasingly strict because software effectiveness directly determines user performance, which in turn affects the productivity of the organizations where users work. At present, the scientific literature and the software market lack tools for evaluating the informativeness of graphical user interfaces (GUIs) from the standpoint of improving user performance.
+
+Purpose: To develop tools in the form of a simulation-and-analytical model that enables evaluation of GUI informativeness and prediction of user performance throughout the working day.
+
+Methods: The model relies on rules and regularities drawn from visual aesthetics, human–computer interaction, Gestalt psychology, neuroaesthetics, perceptual psychology, and ergonomics, as well as on the author’s previously developed algorithms and indicators for evaluating interface informativeness.
+
+Results: The interface loads that affect a person during the working day while using software products were identified, along with their composition in the form of spectra of informativeness indicators. Analytical models of cognitive, visual, and motor loads were built. An original formula for evaluating user performance in software products was proposed. A simulation-and-analytical model was implemented that enables real-time tracking of changes in cognitive, visual, and motor loads when user-model characteristics and interface characteristics vary. The model also automates the process of evaluating and comparing interfaces that are similar in function and purpose.
+
+Keywords: graphical user interface; simulation and analytical model; loads; informativeness; user performance.
+
+Citation: Vostrykh A. V. Simulation and Analytical Model for Evaluating the Informativeness of Graphical User Interfaces. LETI Transactions on Electrical Engineering & Computer Science. 2025;18(1):46–54. https://doi.org/10.32603/2071-8985-2025-18-1-46-54
+
+What the paper proposes (clear English summary)
+1) Core idea: three types of GUI “loads”
+The author treats the negative side of GUI usage as three kinds of loads acting on the user during work in software:
+
+Cognitive load (e.g., remembering what a tool does)
+
+Visual load (e.g., searching menus and controls)
+
+Motor load (e.g., precise mouse actions)
+
+Lower loads are associated with less fatigue and higher productivity.
+
+2) Informativeness indicators and how they map to loads
+The model uses informativeness indicators defined in earlier work (the paper references them) and groups them into “spectra” that form each load (cognitive/visual/motor). The text emphasizes trade-offs: improving one aspect may worsen another.
+
+Examples of stated dependencies include:
+
+Increasing Readability 
+R
+u
+R 
+u
+  decreases cognitive and motor load, but increases visual load.
+
+Decreasing Discoverability 
+H
+H, Predictability 
+T
+p
+T 
+p
+ , and Separativity 
+I
+l
+I 
+l
+  decreases all load types.
+
+Increasing Informational saturation 
+D
+f
+D 
+f
+  decreases cognitive load and increases visual load, with no effect on motor load.
+
+3) Analytical load formulas (as presented in the excerpt)
+The paper then defines load values using weighted “convolutions” (weighted sums with signs). In the excerpt these appear as formulas (4)–(6) with weights 
+k
+m
+i
+k 
+mi
+  representing indicator significance.
+
+4) User performance model across the working day
+User performance is computed using a formula that combines:
+
+The three load values (cognitive/visual/motor)
+
+User-model coefficients for gender 
+k
+g
+e
+n
+k 
+gen
+ , computer skill level 
+k
+i
+n
+t
+k 
+int
+ , and age 
+k
+a
+g
+e
+k 
+age
+  (given as a table of coefficients)
+
+Additional factors for work dynamics: a “warm-up/workability” load 
+B
+s
+B 
+s
+ , a monotony load 
+B
+m
+B 
+m
+ , and a fatigue coefficient 
+k
+f
+t
+g
+k 
+ftg
+  (given by time intervals / phases)
+
+The working day is split into phases (mobilization, hypercompensation, compensation, subcompensation, break, final spurt, etc.), and performance changes over time.
+
+5) Comparing two GUIs
+To compare two interfaces, the proposed procedure is:
+
+Compute informativeness indicators for each GUI.
+
+Compute cognitive/visual/motor load for each GUI.
+
+Compute user performance per phase for each GUI.
+
+Plot performance dynamics over the day.
+
+Find intersection points and define intervals.
+
+If one curve stays above the other on an interval, the area between them measures resource savings.
+
+If dominance alternates, compute areas separately and compare.
+
+The difference between larger and smaller area is the advantage measure.
+
+A demonstration compares YouiDraw vs Inkscape, showing higher predicted performance for YouiDraw in the example.
+
+6) Implemented software tool
+The author reports implementing the simulation-and-analytical model as software with GUI blocks:
+
+User model (gender, age, skill level)
+
+GUI characteristics (counts of indicators/elements/states, reading time, actions, number of words, font size, background/font colors, etc.)
+
+Real-time charts for the three loads
+
+Real-time chart for user performance dynamics
+
+Indicator values output panel
